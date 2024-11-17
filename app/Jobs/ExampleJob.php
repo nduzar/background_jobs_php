@@ -21,6 +21,6 @@ class ExampleJob implements ShouldQueue
     {
         // Simulate some work
         sleep(5);
-        \Log::info('Example job completed');
+        \Log::info('Example job completed succesfully');
     }
 }
